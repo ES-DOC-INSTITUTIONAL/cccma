@@ -1,0 +1,32 @@
+{
+    "canesm5": {
+        "aerosol": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "atmos": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "atmoschem": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "land": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "ocean": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "ocnbgchem": {
+            "initializedFrom": "", 
+            "name": ""
+        }, 
+        "seaice": {
+            "initializedFrom": "", 
+            "name": ""
+        }
+    }
+}
