@@ -1,32 +1,32 @@
 {
     "canesm5": {
         "aerosol": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:CanESM2", 
+            "name": "AM5-AERO"
         }, 
         "atmos": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:CanESM2", 
+            "name": "AM5-PHYS"
         }, 
         "atmoschem": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:CanESM2", 
+            "name": "AM5-CHEM"
         }, 
         "land": {
-            "initializedFrom": "", 
-            "name": ""
+            "initializedFrom": "cmip5:CanESM2", 
+            "name": "CTEM"
         }, 
         "ocean": {
             "initializedFrom": "", 
-            "name": ""
+            "name": "NEMO"
         }, 
         "ocnbgchem": {
             "initializedFrom": "", 
-            "name": ""
+            "name": "CMOC"
         }, 
         "seaice": {
             "initializedFrom": "", 
-            "name": ""
+            "name": "LIM2"
         }
     }
 }
