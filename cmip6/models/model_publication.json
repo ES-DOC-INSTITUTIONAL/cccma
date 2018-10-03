@@ -6,10 +6,10 @@
         "aerosol": {
             "publish": "off"
         }, 
-        "atmoschem": {
+        "atmos": {
             "publish": "off"
         }, 
-        "atmos": {
+        "atmoschem": {
             "publish": "off"
         }, 
         "land": {
@@ -23,6 +23,6 @@
         }, 
         "seaice": {
             "publish": "off"
-        } 
+        }
     }
 }
