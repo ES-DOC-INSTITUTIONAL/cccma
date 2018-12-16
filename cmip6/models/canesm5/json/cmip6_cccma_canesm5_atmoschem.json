@@ -1,91 +1,28 @@
 {
     "mipEra": "cmip6", 
     "institute": "cccma", 
-    "seedingSource": "cmip5:canesm2", 
+    "seedingSource": null, 
     "sourceID": "canesm5", 
     "topic": "atmoschem", 
     "content": {
-        "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_emitted_species": {
-            "values": [
-                "Sulphur dioxide"
-            ]
-        }, 
-        "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species": {
-            "values": [
-                "Sulphur dioxide (from tropospheric continual volcanic sources)"
-            ]
-        }, 
-        "cmip6.atmoschem.emissions_concentrations.overview": {
-            "values": [
-                "Further information may be found in von Salzen 2011."
-            ]
-        }, 
-        "cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species": {
-            "values": [
-                "DMS (ocean), based  on monthly mean sea water concentration"
-            ]
-        }, 
-        "cmip6.atmoschem.emissions_concentrations.surface_emissions.other_emitted_species": {
-            "values": [
-                "Sulphur dioxide"
-            ]
-        }, 
-        "cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species": {
-            "values": [
-                "DMS (land)"
-            ]
-        }, 
-        "cmip6.atmoschem.emissions_concentrations.surface_emissions.sources": {
-            "values": [
-                "Anthropogenic", 
-                "Other: bare ground", 
-                "Sea surface", 
-                "Vegetation"
-            ]
-        }, 
-        "cmip6.atmoschem.gas_phase_chemistry.number_of_bimolecular_reactions": {
-            "values": [
-                5
-            ]
-        }, 
-        "cmip6.atmoschem.gas_phase_chemistry.overview": {
-            "values": [
-                "Specified monthly mean concentrations for oxidants (hydroxyl, ozone) and other gas-phase compounds (nitrate, ammonium). Adjustment of hydrogen peroxide concentrations to specified monthly mean concentrations. Further information may be found in von Salzen 2011."
-            ]
-        }, 
-        "cmip6.atmoschem.gas_phase_chemistry.species": {
-            "values": [
-                "Other: sox"
-            ]
-        }, 
-        "cmip6.atmoschem.gas_phase_chemistry.wet_deposition": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.atmoschem.gas_phase_chemistry.wet_oxidation": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.atmoschem.key_properties.chemistry_scheme_scope": {
-            "values": [
-                "troposphere"
-            ]
-        }, 
-        "cmip6.atmoschem.key_properties.coupling_with_chemical_reactivity": {
-            "values": [
-                true
-            ]
-        }, 
         "cmip6.atmoschem.key_properties.name": {
             "values": [
                 "CanESM2 chemistry scheme"
             ]
         }, 
+        "cmip6.atmoschem.key_properties.chemistry_scheme_scope": {
+            "values": [
+                "Troposphere"
+            ]
+        }, 
         "cmip6.atmoschem.key_properties.number_of_tracers": {
             "values": [
                 2
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.coupling_with_chemical_reactivity": {
+            "values": [
+                true
             ]
         }, 
         "cmip6.atmoschem.key_properties.timestep_framework.method": {
@@ -106,6 +43,64 @@
         "cmip6.atmoschem.transport.overview": {
             "values": [
                 "advection scheme type: spectral\nmass conservation employs a hybridization technique described in von Salzen 2011."
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.overview": {
+            "values": [
+                "Further information may be found in von Salzen 2011."
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.sources": {
+            "values": [
+                "Anthropogenic", 
+                "Other: bare ground", 
+                "Sea surface", 
+                "Vegetation"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species": {
+            "values": [
+                "DMS (land)"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.interactive_emitted_species": {
+            "values": [
+                "DMS (ocean), based  on monthly mean sea water concentration"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.other_emitted_species": {
+            "values": [
+                "Sulphur dioxide"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species": {
+            "values": [
+                "Sulphur dioxide (from tropospheric continual volcanic sources)"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.other_emitted_species": {
+            "values": [
+                "Sulphur dioxide"
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.overview": {
+            "values": [
+                "Specified monthly mean concentrations for oxidants (hydroxyl, ozone) and other gas-phase compounds (nitrate, ammonium). Adjustment of hydrogen peroxide concentrations to specified monthly mean concentrations. Further information may be found in von Salzen 2011."
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.species": {
+            "values": [
+                "Other: sox"
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.number_of_bimolecular_reactions": {
+            "values": [
+                5
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.wet_deposition": {
+            "values": [
+                true
             ]
         }
     }
