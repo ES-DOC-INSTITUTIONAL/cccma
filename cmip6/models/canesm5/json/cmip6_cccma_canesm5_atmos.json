@@ -1,7 +1,7 @@
 {
     "mipEra": "cmip6", 
     "institute": "cccma", 
-    "seedingSource": null, 
+    "seedingSource": "Spreadsheet", 
     "sourceID": "canesm5", 
     "topic": "atmos", 
     "content": {
@@ -12,7 +12,7 @@
         }, 
         "cmip6.atmos.key_properties.model_family": {
             "values": [
-                "AGCM"
+                "AGCM: Atmospheric General Circulation Model"
             ]
         }, 
         "cmip6.atmos.key_properties.basic_approximations": {
@@ -135,7 +135,7 @@
         }, 
         "cmip6.atmos.turbulence_convection.deep_convection.scheme_method": {
             "values": [
-                "CAPE"
+                "CAPE: Mass flux determined by CAPE, convectively available potential energy."
             ]
         }, 
         "cmip6.atmos.turbulence_convection.deep_convection.processes": {

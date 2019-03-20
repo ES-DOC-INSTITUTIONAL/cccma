@@ -1,7 +1,7 @@
 {
     "mipEra": "cmip6", 
     "institute": "cccma", 
-    "seedingSource": null, 
+    "seedingSource": "Spreadsheet", 
     "sourceID": "canesm5", 
     "topic": "aerosol", 
     "content": {
