@@ -15,38 +15,6 @@
         "land": {
             "publish": "off"
         }, 
-        "landice": {
-            "publish": "off"
-        }, 
-        "ocean": {
-            "publish": "off"
-        }, 
-        "ocnbgchem": {
-            "publish": "off"
-        }, 
-        "seaice": {
-            "publish": "off"
-        }
-    }, 
-    "canesm5-canoe": {
-        "toplevel": {
-            "publish": "off"
-        }, 
-        "aerosol": {
-            "publish": "off"
-        }, 
-        "atmos": {
-            "publish": "off"
-        }, 
-        "atmoschem": {
-            "publish": "off"
-        }, 
-        "land": {
-            "publish": "off"
-        }, 
-        "landice": {
-            "publish": "off"
-        }, 
         "ocean": {
             "publish": "off"
         }, 
