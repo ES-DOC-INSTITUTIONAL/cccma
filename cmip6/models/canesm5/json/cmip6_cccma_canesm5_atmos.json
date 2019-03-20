@@ -1,181 +1,23 @@
 {
     "mipEra": "cmip6", 
     "institute": "cccma", 
-    "seedingSource": null, 
+    "seedingSource": "cmip5:canesm2", 
     "sourceID": "canesm5", 
     "topic": "atmos", 
     "content": {
-        "cmip6.atmos.key_properties.name": {
+        "cmip6.atmos.cloud_scheme.processes": {
             "values": [
-                "CanESM2 atmosphere"
+                "Other: prognostic cloud microphysics scheme for cloud liq. water and ice (bulk) in combination with statistical cloud scheme (von salzen 2011)"
             ]
         }, 
-        "cmip6.atmos.key_properties.model_family": {
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.convection_coupling": {
             "values": [
-                "AGCM"
+                "coupled with deep"
             ]
         }, 
-        "cmip6.atmos.key_properties.basic_approximations": {
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.type": {
             "values": [
-                "Hydrostatic", 
-                "Primitive equations"
-            ]
-        }, 
-        "cmip6.atmos.key_properties.timestepping.timestep_dynamics": {
-            "values": [
-                900
-            ]
-        }, 
-        "cmip6.atmos.key_properties.orography.type": {
-            "values": [
-                "Other: present day"
-            ]
-        }, 
-        "cmip6.atmos.grid.discretisation.horizontal.scheme_type": {
-            "values": [
-                "Spectral"
-            ]
-        }, 
-        "cmip6.atmos.dynamical_core.timestepping_type": {
-            "values": [
-                "Leap frog"
-            ]
-        }, 
-        "cmip6.atmos.dynamical_core.prognostic_variables": {
-            "values": [
-                "Clouds", 
-                "Divergence/curl", 
-                "Radiation", 
-                "Surface pressure", 
-                "Temperature", 
-                "Total water", 
-                "Water ice", 
-                "Water liquid", 
-                "Water vapour"
-            ]
-        }, 
-        "cmip6.atmos.dynamical_core.top_boundary.top_wind": {
-            "values": [
-                "Strong sponge on wind in excess of 90m/s above 10hPa to maintain CFL  stability for given time step"
-            ]
-        }, 
-        "cmip6.atmos.dynamical_core.diffusion_horizontal.scheme_name": {
-            "values": [
-                "Leith (1971)"
-            ]
-        }, 
-        "cmip6.atmos.dynamical_core.advection.tracers.conserved_quantities": {
-            "values": [
-                "Other: hybrid transport variable, with mass correction (von salzen et al 2011)"
-            ]
-        }, 
-        "cmip6.atmos.dynamical_core.advection.tracers.conservation_method": {
-            "values": [
-                "Conservation fixer"
-            ]
-        }, 
-        "cmip6.atmos.dynamical_core.advection.momentum.conserved_quantities": {
-            "values": [
-                "Vorticity"
-            ]
-        }, 
-        "cmip6.atmos.radiation.overview": {
-            "values": [
-                "The Shortwave SchemeType and Longwave SchemeType is correlated-k.  Both Shortwave and Longwave use the Monte Carlo Independent Column Approximation."
-            ]
-        }, 
-        "cmip6.atmos.radiation.aerosols": {
-            "values": [
-                "Other: black carbon / soot", 
-                "Dust", 
-                "Organic", 
-                "Sea salt", 
-                "Sulphate"
-            ]
-        }, 
-        "cmip6.atmos.radiation.shortwave_radiation.spectral_intervals": {
-            "values": [
-                35
-            ]
-        }, 
-        "cmip6.atmos.radiation.longwave_radiation.spectral_integration": {
-            "values": [
-                "Correlated-k"
-            ]
-        }, 
-        "cmip6.atmos.radiation.longwave_radiation.transport_calculation": {
-            "values": [
-                "Two-stream"
-            ]
-        }, 
-        "cmip6.atmos.radiation.longwave_radiation.spectral_intervals": {
-            "values": [
-                46
-            ]
-        }, 
-        "cmip6.atmos.turbulence_convection.overview": {
-            "values": [
-                "Further information may be found in von Salzen 2011"
-            ]
-        }, 
-        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.counter_gradient": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.atmos.turbulence_convection.deep_convection.scheme_name": {
-            "values": [
-                "Zhang McFarlane 1995; Scinocca & McFarlane (2004)"
-            ]
-        }, 
-        "cmip6.atmos.turbulence_convection.deep_convection.scheme_type": {
-            "values": [
-                "Mass-flux"
-            ]
-        }, 
-        "cmip6.atmos.turbulence_convection.deep_convection.scheme_method": {
-            "values": [
-                "CAPE"
-            ]
-        }, 
-        "cmip6.atmos.turbulence_convection.deep_convection.processes": {
-            "values": [
-                "Convective momentum transport", 
-                "Detrainment", 
-                "Entrainment", 
-                "Penetrative convection", 
-                "Updrafts"
-            ]
-        }, 
-        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_name": {
-            "values": [
-                "Von Salzen McFarlane 2002"
-            ]
-        }, 
-        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_type": {
-            "values": [
-                "Mass-flux"
-            ]
-        }, 
-        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_method": {
-            "values": [
-                "Separate diagnosis"
-            ]
-        }, 
-        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.scheme_name": {
-            "values": [
-                "Modified Lohmann (Lohmann&Roeckner 1996) scheme (von Salzen 2011)"
-            ]
-        }, 
-        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.hydrometeors": {
-            "values": [
-                "Liquid rain", 
-                "Snow"
-            ]
-        }, 
-        "cmip6.atmos.microphysics_precipitation.large_scale_cloud_microphysics.scheme_name": {
-            "values": [
-                "Modified Lohmann (Lohmann&Roeckner 1996) scheme (von Salzen 2011)"
+                "diagnostic"
             ]
         }, 
         "cmip6.atmos.cloud_scheme.uses_separate_treatment": {
@@ -183,75 +25,47 @@
                 "Yes"
             ]
         }, 
-        "cmip6.atmos.cloud_scheme.processes": {
+        "cmip6.atmos.dynamical_core.advection.momentum.conserved_quantities": {
             "values": [
-                "Other: prognostic cloud microphysics scheme for cloud liq. water and ice (bulk) in combination with statistical cloud scheme (von salzen 2011)"
+                "Vorticity"
             ]
         }, 
-        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.type": {
+        "cmip6.atmos.dynamical_core.advection.tracers.conservation_method": {
             "values": [
-                "Diagnostic"
+                "conservation fixer"
             ]
         }, 
-        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.convection_coupling": {
+        "cmip6.atmos.dynamical_core.advection.tracers.conserved_quantities": {
             "values": [
-                "Coupled with deep"
+                "Other: hybrid transport variable, with mass correction (von salzen et al 2011)"
             ]
         }, 
-        "cmip6.atmos.observation_simulation.overview": {
+        "cmip6.atmos.dynamical_core.diffusion_horizontal.scheme_name": {
             "values": [
-                "Under InputsLidar, the appropriate value for Overlap is general overlap (Hogan and Illingworth, 2000).  The subcolumns used in COSP are the same as used in the Monte Carlo Independent Column Approximation (McICA) for the radiative transfer calculations."
+                "Leith (1971)"
             ]
         }, 
-        "cmip6.atmos.observation_simulation.isscp_attributes.top_height_estimation_method": {
+        "cmip6.atmos.dynamical_core.prognostic_variables": {
             "values": [
-                "IR brightness", 
-                "Visible optical depth"
+                "clouds", 
+                "divergence/curl", 
+                "radiation", 
+                "surface pressure", 
+                "temperature", 
+                "total water", 
+                "water ice", 
+                "water liquid", 
+                "water vapour"
             ]
         }, 
-        "cmip6.atmos.observation_simulation.isscp_attributes.top_height_direction": {
+        "cmip6.atmos.dynamical_core.timestepping_type": {
             "values": [
-                "Highest altitude level"
+                "leap frog"
             ]
         }, 
-        "cmip6.atmos.observation_simulation.cosp_attributes.run_configuration": {
+        "cmip6.atmos.dynamical_core.top_boundary.top_wind": {
             "values": [
-                "Inline"
-            ]
-        }, 
-        "cmip6.atmos.observation_simulation.cosp_attributes.number_of_sub_columns": {
-            "values": [
-                150
-            ]
-        }, 
-        "cmip6.atmos.observation_simulation.cosp_attributes.number_of_levels": {
-            "values": [
-                40
-            ]
-        }, 
-        "cmip6.atmos.observation_simulation.radar_inputs.frequency": {
-            "values": [
-                94
-            ]
-        }, 
-        "cmip6.atmos.observation_simulation.radar_inputs.type": {
-            "values": [
-                "Space borne"
-            ]
-        }, 
-        "cmip6.atmos.observation_simulation.radar_inputs.gas_absorption": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.atmos.observation_simulation.radar_inputs.effective_radius": {
-            "values": [
-                true
-            ]
-        }, 
-        "cmip6.atmos.observation_simulation.lidar_inputs.ice_types": {
-            "values": [
-                "Ice spheres"
+                "Strong sponge on wind in excess of 90m/s above 10hPa to maintain CFL  stability for given time step"
             ]
         }, 
         "cmip6.atmos.gravity_waves.overview": {
@@ -261,27 +75,71 @@
         }, 
         "cmip6.atmos.gravity_waves.subgrid_scale_orography": {
             "values": [
-                "Effect on drag"
+                "effect on drag"
             ]
         }, 
-        "cmip6.atmos.natural_forcing.solar_constant.type": {
+        "cmip6.atmos.grid.discretisation.horizontal.scheme_type": {
             "values": [
-                "Transient"
+                "spectral"
             ]
         }, 
-        "cmip6.atmos.natural_forcing.solar_constant.transient_characteristics": {
+        "cmip6.atmos.key_properties.basic_approximations": {
             "values": [
-                "Secular variation for each band in radiative transfer model using data from Lean 2009"
+                "hydrostatic", 
+                "primitive equations"
             ]
         }, 
-        "cmip6.atmos.natural_forcing.orbital_parameters.type": {
+        "cmip6.atmos.key_properties.model_family": {
             "values": [
-                "Fixed"
+                "AGCM"
             ]
         }, 
-        "cmip6.atmos.natural_forcing.orbital_parameters.fixed_reference_date": {
+        "cmip6.atmos.key_properties.name": {
             "values": [
-                1950
+                "CanESM2 atmosphere"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.orography.type": {
+            "values": [
+                "Other: present day"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.timestepping.timestep_dynamics": {
+            "values": [
+                900
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_cloud_microphysics.processes": {
+            "values": [
+                "cloud droplets", 
+                "cloud ice", 
+                "effect of graupel", 
+                "effect of raindrops", 
+                "effect of snow", 
+                "ice nucleation", 
+                "mixed phase", 
+                "water vapour deposition"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_cloud_microphysics.scheme_name": {
+            "values": [
+                "Modified Lohmann (Lohmann&Roeckner 1996) scheme (von Salzen 2011)"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.hydrometeors": {
+            "values": [
+                "liquid rain", 
+                "snow"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.scheme_name": {
+            "values": [
+                "Modified Lohmann (Lohmann&Roeckner 1996) scheme (von Salzen 2011)"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.insolation_ozone.solar_ozone_impact": {
+            "values": [
+                true
             ]
         }, 
         "cmip6.atmos.natural_forcing.orbital_parameters.computation_method": {
@@ -289,9 +147,168 @@
                 "Berger 1978"
             ]
         }, 
-        "cmip6.atmos.natural_forcing.insolation_ozone.solar_ozone_impact": {
+        "cmip6.atmos.natural_forcing.orbital_parameters.fixed_reference_date": {
+            "values": [
+                1950
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.orbital_parameters.type": {
+            "values": [
+                "fixed"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.solar_constant.transient_characteristics": {
+            "values": [
+                "Secular variation for each band in radiative transfer model using data from Lean 2009"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.solar_constant.type": {
+            "values": [
+                "transient"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.volcanoes_treatment.volcanoes_implementation": {
+            "values": [
+                "stratospheric aerosols optical thickness"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.cosp_attributes.number_of_levels": {
+            "values": [
+                40
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.cosp_attributes.number_of_sub_columns": {
+            "values": [
+                150
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.cosp_attributes.run_configuration": {
+            "values": [
+                "Inline"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.isscp_attributes.top_height_direction": {
+            "values": [
+                "highest altitude level"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.isscp_attributes.top_height_estimation_method": {
+            "values": [
+                "IR brightness", 
+                "visible optical depth"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.lidar_inputs.ice_types": {
+            "values": [
+                "ice spheres"
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.overview": {
+            "values": [
+                "Under InputsLidar, the appropriate value for Overlap is general overlap (Hogan and Illingworth, 2000).  The subcolumns used in COSP are the same as used in the Monte Carlo Independent Column Approximation (McICA) for the radiative transfer calculations."
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.radar_inputs.effective_radius": {
             "values": [
                 true
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.radar_inputs.frequency": {
+            "values": [
+                94.0
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.radar_inputs.gas_absorption": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.radar_inputs.type": {
+            "values": [
+                "space borne"
+            ]
+        }, 
+        "cmip6.atmos.radiation.aerosols": {
+            "values": [
+                "Other: black carbon / soot", 
+                "dust", 
+                "organic", 
+                "sea salt", 
+                "sulphate"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.spectral_integration": {
+            "values": [
+                "correlated-k"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.spectral_intervals": {
+            "values": [
+                46
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.transport_calculation": {
+            "values": [
+                "two-stream"
+            ]
+        }, 
+        "cmip6.atmos.radiation.overview": {
+            "values": [
+                "The Shortwave SchemeType and Longwave SchemeType is correlated-k.  Both Shortwave and Longwave use the Monte Carlo Independent Column Approximation."
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.spectral_intervals": {
+            "values": [
+                35
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.counter_gradient": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.processes": {
+            "values": [
+                "convective momentum transport", 
+                "detrainment", 
+                "entrainment", 
+                "penetrative convection", 
+                "updrafts"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_method": {
+            "values": [
+                "CAPE"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_name": {
+            "values": [
+                "Zhang McFarlane 1995; Scinocca & McFarlane (2004)"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_type": {
+            "values": [
+                "mass-flux"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.overview": {
+            "values": [
+                "Further information may be found in von Salzen 2011"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_method": {
+            "values": [
+                "separate diagnosis"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_name": {
+            "values": [
+                "Von Salzen McFarlane 2002"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_type": {
+            "values": [
+                "mass-flux"
             ]
         }
     }
