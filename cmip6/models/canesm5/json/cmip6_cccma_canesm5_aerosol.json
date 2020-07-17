@@ -4,5 +4,75 @@
     "seedingSource": "Spreadsheet", 
     "sourceID": "canesm5", 
     "topic": "aerosol", 
-    "content": {}
+    "content": {
+        "cmip6.aerosol.key_properties.name": {
+            "values": [
+                "CanESM2 aerosol scheme"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.overview": {
+            "values": [
+                "Prognostic, single-moment bulk scheme for sulphate, organic carbon, black carbon, sea salt, and mineral dust (online). Emissions for sulphur dioxide and organic and black carbon according to CMIP5. References: Lohmann, U., K. von Salzen, N. McFarlane, H. G. Leighton, and J. Feichter, 1999, Tropospheric sulphur cycle in the Canadian general circulation model, J. Geophys. Res., 104, 26,833-26,858; Croft, B., U. Lohmann, and K. von Salzen, 2005, Black carbon ageing in the Canadian Centre for Climate modelling and analysis atmospheric general circulation model, Atmos. Chem. Phys., 5, 1931-1949."
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.scheme_scope": {
+            "values": [
+                "Stratosphere", 
+                "Troposphere"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.basic_approximations": {
+            "values": [
+                "Single-moment (mass), bulk"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.prognostic_variables_form": {
+            "values": [
+                "3D mass/volume ratio for aerosols"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.number_of_tracers": {
+            "values": [
+                9
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.family_approach": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.method": {
+            "values": [
+                "Uses atmospheric chemistry time stepping"
+            ]
+        }, 
+        "cmip6.aerosol.model.processes": {
+            "values": [
+                "Ageing", 
+                "Dry deposition", 
+                "Oxidation (gas phase)", 
+                "Oxidation (in cloud)", 
+                "Sedimentation", 
+                "Wet deposition (impaction scavenging)", 
+                "Wet deposition (nucleation scavenging)"
+            ]
+        }, 
+        "cmip6.aerosol.model.coupling": {
+            "values": [
+                "Clouds", 
+                "Radiation"
+            ]
+        }, 
+        "cmip6.aerosol.model.gas_phase_precursors": {
+            "values": [
+                "DMS", 
+                "SO2"
+            ]
+        }, 
+        "cmip6.aerosol.model.scheme_type": {
+            "values": [
+                "Bulk"
+            ]
+        }
+    }
 }
